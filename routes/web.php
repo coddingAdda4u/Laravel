@@ -39,7 +39,11 @@ Route::prefix('/')->group(function () {
         fn() =>
         view('pages.redirect')
     )->name('redirect');
-
+    Route::get(
+        'practice',
+        fn() =>
+        view(view: 'pages.practice.index')
+    )->name('practice');
 });
 
 // Login Redirect Route
