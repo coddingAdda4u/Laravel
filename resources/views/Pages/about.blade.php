@@ -70,7 +70,7 @@
 <body>
   @include('components.navbar')
   <div class="container-fluid">
-    <h1>About Page</h1>
+    <h1>About</h1>
   </div>
 </body>
 
